@@ -1,0 +1,12 @@
+C:\Users\bruno_ortiz\Desktop\5595308793-master\5595308793-master\ZxBackend\bin\Debug\netcoreapp2.0\pdvs.json
+C:\Users\bruno_ortiz\Desktop\5595308793-master\5595308793-master\ZxBackend\bin\Debug\netcoreapp2.0\ZxBackend.deps.json
+C:\Users\bruno_ortiz\Desktop\5595308793-master\5595308793-master\ZxBackend\bin\Debug\netcoreapp2.0\ZxBackend.runtimeconfig.json
+C:\Users\bruno_ortiz\Desktop\5595308793-master\5595308793-master\ZxBackend\bin\Debug\netcoreapp2.0\ZxBackend.runtimeconfig.dev.json
+C:\Users\bruno_ortiz\Desktop\5595308793-master\5595308793-master\ZxBackend\bin\Debug\netcoreapp2.0\ZxBackend.dll
+C:\Users\bruno_ortiz\Desktop\5595308793-master\5595308793-master\ZxBackend\bin\Debug\netcoreapp2.0\ZxBackend.pdb
+C:\Users\bruno_ortiz\Desktop\5595308793-master\5595308793-master\ZxBackend\obj\Debug\netcoreapp2.0\ZxBackend.csprojAssemblyReference.cache
+C:\Users\bruno_ortiz\Desktop\5595308793-master\5595308793-master\ZxBackend\obj\Debug\netcoreapp2.0\ZxBackend.csproj.CoreCompileInputs.cache
+C:\Users\bruno_ortiz\Desktop\5595308793-master\5595308793-master\ZxBackend\obj\Debug\netcoreapp2.0\ZxBackend.AssemblyInfoInputs.cache
+C:\Users\bruno_ortiz\Desktop\5595308793-master\5595308793-master\ZxBackend\obj\Debug\netcoreapp2.0\ZxBackend.AssemblyInfo.cs
+C:\Users\bruno_ortiz\Desktop\5595308793-master\5595308793-master\ZxBackend\obj\Debug\netcoreapp2.0\ZxBackend.dll
+C:\Users\bruno_ortiz\Desktop\5595308793-master\5595308793-master\ZxBackend\obj\Debug\netcoreapp2.0\ZxBackend.pdb

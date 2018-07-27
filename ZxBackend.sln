@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZxBackend", "ZxBackend\ZxBackend.csproj", "{6126B6AA-12DD-4C3F-9103-720E9AF197E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZxBackend.Tests", "ZxBackend.Tests\ZxBackend.Tests.csproj", "{53201989-F281-4D65-A51F-166AF7BB3898}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E97DF5EF-6022-4D16-AA92-6E54E1F6C792}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6126B6AA-12DD-4C3F-9103-720E9AF197E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6126B6AA-12DD-4C3F-9103-720E9AF197E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6126B6AA-12DD-4C3F-9103-720E9AF197E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6126B6AA-12DD-4C3F-9103-720E9AF197E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53201989-F281-4D65-A51F-166AF7BB3898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53201989-F281-4D65-A51F-166AF7BB3898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53201989-F281-4D65-A51F-166AF7BB3898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53201989-F281-4D65-A51F-166AF7BB3898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E97DF5EF-6022-4D16-AA92-6E54E1F6C792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E97DF5EF-6022-4D16-AA92-6E54E1F6C792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E97DF5EF-6022-4D16-AA92-6E54E1F6C792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E97DF5EF-6022-4D16-AA92-6E54E1F6C792}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63CC5605-DCCC-411D-BFCA-F6C1658ED6CA}
+	EndGlobalSection
+EndGlobal

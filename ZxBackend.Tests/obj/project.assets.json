@@ -1,0 +1,62 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.0": [
+      "C:\\Users\\bruno_ortiz\\Desktop\\5595308793-master\\5595308793-master\\ZxBackend\\ZxBackend.csproj"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\bruno_ortiz\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\bruno_ortiz\\Desktop\\5595308793-master\\5595308793-master\\ZxBackend.Tests\\ZxBackend.Tests.csproj",
+      "projectName": "ZxBackend.Tests",
+      "projectPath": "C:\\Users\\bruno_ortiz\\Desktop\\5595308793-master\\5595308793-master\\ZxBackend.Tests\\ZxBackend.Tests.csproj",
+      "packagesPath": "C:\\Users\\bruno_ortiz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bruno_ortiz\\Desktop\\5595308793-master\\5595308793-master\\ZxBackend.Tests\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\bruno_ortiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://10.0.8.181:8080/api/odata": {},
+        "http://nuget.novitech.net.br/nuget": {},
+        "https://www.nuget.org/api/v2/": {}
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "projectReferences": {
+            "C:\\Users\\bruno_ortiz\\Desktop\\5595308793-master\\5595308793-master\\ZxBackend\\ZxBackend.csproj": {
+              "projectPath": "C:\\Users\\bruno_ortiz\\Desktop\\5595308793-master\\5595308793-master\\ZxBackend\\ZxBackend.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.0": {}
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\bruno_ortiz\\Desktop\\5595308793-master\\5595308793-master\\ZxBackend\\ZxBackend.csproj'. The project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\bruno_ortiz\\Desktop\\5595308793-master\\5595308793-master\\ZxBackend\\ZxBackend.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    }
+  ]
+}

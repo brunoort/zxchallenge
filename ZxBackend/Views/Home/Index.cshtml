@@ -1,0 +1,82 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>ZxBackend Challenge</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>    
+
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">          
+          <a class="navbar-brand" href="#">ZxBackend Challenge</a>
+        </div>        
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+          <br/>
+            <h2>Precisando de ajuda para localizar o PDV mais próximo? Veja os métodos disponíveis.</h2>
+            <br/>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-3">
+          <h2>CRIAR PDV</h2>          
+          <p>POST /api/pdv </p>
+       </div>
+        <div class="col-md-3">
+          <h2>Lista de PDV's</h2>          
+          <p><a class="btn btn-default" href="~/api/pdv" role="button">Ver Detalhes &raquo;</a></p>
+        </div>
+        <div class="col-md-3">
+          <h2>PDV por ID</h2>          
+          <p><input id="lblPdvId" type="text" value="1"/></p>
+          <p><a class="btn btn-default" href="#" onclick="this.href='/api/pdv/'+document.getElementById('lblPdvId').value;" role="button">Localizar PDV &raquo;</a></p>
+        </div>       
+        <div class="col-md-3">
+          <h2>Qual o PDV mais próximo?</h2>          
+            <p>Latitude: <input id="lblLatitude" type="text" value="-43.3141"/></p>
+            <p>Longitude: <input id="lblLongitude" type="text" value="-22.9906"/></p>
+            <p><a class="btn btn-default" href="#" onclick="this.href='/api/pdv/closest?lon='+document.getElementById('lblLongitude').value + '&lat=' + document.getElementById('lblLatitude').value" role="button">Localizar &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; 2018 ZX Ventures</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    
+</body>
+</html>
